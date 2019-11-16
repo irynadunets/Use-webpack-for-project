@@ -1,0 +1,19 @@
+{
+  "plagins":[
+"@babel/plugin-transform-classes": "^7.7.0",
+"@babel/plugin-transform-template-literals": "^7.4.4"
+],
+  "presets":[[
+    "@babel/env",
+    "@babel/react",
+    {
+      "corejs": 3,
+      "useBuiltIns": "entry",
+      "debug": true,
+      "modules":false
+      "targets": {
+        "edge": "18",
+        "chrome": "74"
+      }
+    }]]
+}
